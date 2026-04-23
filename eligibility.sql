@@ -1,3 +1,7 @@
+-- Purpose: Identify patients meeting hypertension program criteria
+-- Business rule: I10 diagnosis, age 65-75, active, admission within 3 months
+-- Output: List of eligible patients for outreach
+
 -- Find eligible patients
 SELECT
 p.patient_id,
